@@ -10,6 +10,7 @@ public:
         for (ll i = 0; i <= n; i++) {
             parent[i] = i;
             size[i] = 1;
+            rank[i] = 1;
         }
     }
 
